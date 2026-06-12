@@ -56,12 +56,16 @@ WedLink centralizes wedding vendor discovery into a single platform where users 
 - Frontend: Vercel
 - Backend: Render
 
+## Client
+
+Frontend URL:
+https://wedlink-app.vercel.app/
+
 ## API
 
 Backend URL:
-
 https://wed-link-server-v2.onrender.com
 
 ## Author
 
-Developed by Dante Besong as an Ironhack Web Development Final Project.
+Developed by Dante Besong.

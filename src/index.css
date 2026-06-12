@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
+body {
+  background-color: #fafafa;
+}
+
+@media (max-width: 1280px) {
+  .searchBar,
+  .featured-vendor,
+  .categoryFilter {
+    margin: 32px;
+  }
+}
+
+@media (max-width: 680px) {
+  .searchBar,
+  .featured-vendor,
+  .categoryFilter {
+    margin: 16px;
+  }
+}

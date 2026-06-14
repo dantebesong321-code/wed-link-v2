@@ -100,7 +100,7 @@ return (
     text-black
     px-4
     py-2
-    rounded-xl
+    rounded-md
   "
 >
   Edit Vendor
@@ -114,7 +114,7 @@ return (
     text-black
     px-4
     py-2
-    rounded-xl
+    rounded-md
   "
 >
   Delete Vendor

@@ -411,7 +411,7 @@ export default function EditVendorPage() {
             bg-black
             text-white
             py-4
-            rounded-lg
+            rounded-md
             font-medium
             hover:bg-zinc-800
             transition

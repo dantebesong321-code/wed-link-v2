@@ -7,11 +7,11 @@ export default function Hero() {
       <div className="hero-frame relative overflow-hidden rounded-3xl shadow-sm" >
 
       <div className="hero-video" >
-        <video className="w-200%" src={HeroVideo} loop autoPlay></video>
+        <video src={HeroVideo} loop autoPlay></video>
         </div>
 
    
-        <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-center px-6">
+        <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center px-6">
 
           <h1 className="text-white text-4xl md:text-6xl font-bold max-w-4xl">
             Find Wedding Vendors
@@ -25,12 +25,14 @@ export default function Hero() {
           <button
             className="
               mt-8
-              bg-black
-              text-white
+              bg-white
+              text-black
               px-6
               py-3
               rounded-md
-              hover:bg-zinc-900
+              transition-normal
+              hover:bg-zinc-200
+            
             "
           >
             Browse Vendors

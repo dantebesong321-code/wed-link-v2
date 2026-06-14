@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <section className="max-w-6xl mx-auto mb-8 px-4">
-      <div className="relative overflow-hidden rounded-3xl shadow-sm" >
+      <div className="hero-frame relative overflow-hidden rounded-3xl shadow-sm" >
 
       <div className="hero-video" >
-        <video src={HeroVideo} loop autoPlay></video>
+        <video className="w-200%" src={HeroVideo} loop autoPlay></video>
         </div>
 
    
